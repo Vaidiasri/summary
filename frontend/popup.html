@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Summarizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>AI Summarizer</h1>
+        <p class="subtitle">Get the essence of any YouTube video in seconds.</p>
+      </header>
+
+      <main class="main-content">
+        <button id="summarize-btn" class="primary-btn">
+          <span class="btn-text">Summarize Video</span>
+          <div class="spinner loader"></div>
+        </button>
+
+        <div id="error-container" class="error-msg hidden"></div>
+
+        <div id="summary-container" class="summary-box hidden">
+          <h2 class="summary-title">Summary</h2>
+          <div id="summary-content" class="summary-text"></div>
+        </div>
+      </main>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
