@@ -1,3 +1,21 @@
-myenv
+# Virtual Environment
+myenv/
+venv/
+.venv/
+
+# Environment Variables
 .env
 .env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
